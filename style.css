@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'News Gothic Bold';
+    src: url(NewsGothicBold/News\ Gothic\ Bold.otf);
+}
+
+* {
+    background-color: #0E57AE;
+    font-family: 'News Gothic Bold';
+}
+
+h1 {
+    color: #B1DAFB;
+    font-size: 56px;
+}
+
+p {
+    color: #fff;
+}
