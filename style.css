@@ -8,11 +8,46 @@
     font-family: 'News Gothic Bold';
 }
 
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px 300px 30px 300px;
+    text-align: center;
+}
+
 h1 {
     color: #B1DAFB;
-    font-size: 56px;
+    font-size: 64px;
 }
 
 p {
     color: #fff;
+    font-size: 24px;
+}
+
+#input-els {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 70%;
+}
+
+#text-input {
+    background-color: rgba(0, 14, 48, 60%);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+}
+
+#check-btn {
+    background-color: #000E30;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 20px;
 }
