@@ -20,7 +20,6 @@ const checkInput = () => {
         }
     } else {
         result.textContent = 'Please input a value';
-        alert('Please input a value');
     }
 };
 
